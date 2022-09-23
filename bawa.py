@@ -88,11 +88,9 @@ def menu(): #Chang
 	banner()
 	print("") #Chang
 	print("""%s  ___ ___                                
- /   |   \_____    _____ _____________   
-/    ~    \__  \  /     \\___   /\__  \  
-\    Y    // __ \|  Y Y  \/    /  / __ \_
- \___|_  /(____  /__|_|  /_____ \(____  /
-       \/      \/      \/      \/     \/ 
+▒█▀▀█ █▀▀█ █░░░█ █▀▀█ 
+▒█▀▀▄ █▄▄█ █▄█▄█ █▄▄█ 
+▒█▄▄█ ▀░░▀ ░▀░▀░ ▀░░▀
 \n\x1b[1;90m───────────────────────────────────────────────────\n   \x1b[1;90m[\x1b[1;97m01\x1b[1;90m]\x1b[1;97m Crack From Group [not not]\n   \x1b[1;90m[\x1b[1;97m02\x1b[1;90m]\x1b[1;97m Crack from public [not work]\n   \x1b[1;90m[\x1b[1;97m03\x1b[1;90m]\x1b[1;97m Crack from Total Followers [not work]\n   \x1b[1;90m[\x1b[1;97m04\x1b[1;90m]\x1b[1;97m Crack from Link Posts [not work]\n   \x1b[1;90m[\x1b[1;97m05\x1b[1;90m]\x1b[1;97m Crack from Random ID [not work]\n   \x1b[1;90m[\x1b[1;97m06\x1b[1;90m]\x1b[1;97m Crack From File Cloning\n   \x1b[1;90m[\x1b[1;97m00\x1b[1;90m]\x1b[1;97m Exit\n"""%(h))
 	print("""%s\x1b[1;90m───────────────────────────────────────────────────"""%(h))
 	farhan = input(x+'   \x1b[1;90m[\x1b[1;97m>_\x1b[1;90m]\x1b[1;97m choose\x1b[1;90m :\x1b[1;92m ')
@@ -109,7 +107,7 @@ def File2():
 			clear()
 			banner()
 			try:
-				fileX = input ('\x1b[1;90m───────────────────────────────────────────────────\n\x1b[1;93mm WHATSAPP\x1b[1;90m : \x1b[1;97m+923182944185\x1b[1;93m㋱━─\n\x1b[1;90m───────────────────────────────────────────────────\n   \x1b[1;90m[\x1b[1;97m>_\x1b[1;90m]\x1b[1;97m input your file\x1b[1;90m :\x1b[1;92m ') 
+				fileX = input ('\x1b[1;90m───────────────────────────────────────────────────\n\x1b[1;93mm WHATSAPP\x1b[1;90m : \x1b[1;97m+917087738967\x1b[1;93m㋱━─\n\x1b[1;90m───────────────────────────────────────────────────\n   \x1b[1;90m[\x1b[1;97m>_\x1b[1;90m]\x1b[1;97m input your file\x1b[1;90m :\x1b[1;92m ') 
 				for line in open(fileX, 'r').readlines():
 					id.append(line.strip())
 				setting()
@@ -147,12 +145,10 @@ def passwrd():
 	clear()
 	banner()
 	print("""%  ___ ___                                
- /   |   \_____    _____ _____________   
-/    ~    \__  \  /     \\___   /\__  \  
-\    Y    // __ \|  Y Y  \/    /  / __ \_
- \___|_  /(____  /__|_|  /_____ \(____  /
-       \/      \/      \/      \/     \/ 
-       
+     
+▒█▀▀█ █▀▀█ █░░░█ █▀▀█ 
+▒█▀▀▄ █▄▄█ █▄█▄█ █▄▄█ 
+▒█▄▄█ ▀░░▀ ░▀░▀░ ▀░░▀  
 
 m───────────────────────────────────────────────────\x1b[92;1m """%(h))
 	with tred(max_workers=30) as pool:
